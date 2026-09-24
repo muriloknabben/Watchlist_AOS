@@ -1,8 +1,21 @@
 package com.aos.watchlist.model;
 
+import javax.annotation.processing.Generated;
+
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "movie")
 public class Movie {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
     
+    @Column(nullable = false, length = 100)
     private String name;
+
+    
     private int year;
     private String director;
     private double review;
