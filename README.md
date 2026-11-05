@@ -2,8 +2,6 @@
 
 API REST simples feita com **Spring Boot** para gerenciar uma lista de filmes, séries e animes (o que você quer assistir, está assistindo ou já assistiu).
 
-Baseada na arquitetura em camadas do projeto [API-Playlist](https://github.com/jcfdantas/API-Playlist).
-
 ## Estrutura
 
 ```
